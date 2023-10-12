@@ -199,7 +199,14 @@ function myFunction() {
       }
     }
   }
-
+  function csetfunc() {
+    document.getElementById("cname").value="";
+    document.getElementById("cmail").value="";
+    document.getElementById("cnum").value="";
+    document.getElementById("csub").value="";
+    document.getElementById("cmes").value="";
+    
+  }
   window.onload = function(){
     document.getElementById("autoplay").play;
   }
