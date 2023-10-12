@@ -123,6 +123,7 @@ function disp_alert(){
           }
       
           function lesetfunc() {
+            document.getElementById("lml").value="";
             document.getElementById("lun").value="";
             document.getElementById("lpswd").value="";
             
